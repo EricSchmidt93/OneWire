@@ -2,6 +2,7 @@
 #define OneWire_h
 
 #include <inttypes.h>
+#include "Timer.h"
 
 #if defined(__AVR__)
 #include <util/crc16.h>
